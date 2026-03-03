@@ -1,0 +1,15 @@
+{
+  "name": "pi-search-playwright",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pi extension for Google search and web browsing using Playwright",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "playwright": "^1.51.0"
+  }
+}
