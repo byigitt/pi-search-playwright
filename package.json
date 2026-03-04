@@ -1,9 +1,14 @@
 {
   "name": "pi-search-playwright",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Pi extension for Google search and web browsing using Playwright",
+  "description": "Pi extension for web search and browsing using Playwright",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byigitt/pi-search-playwright"
+  },
   "pi": {
     "extensions": [
       "./index.ts"
@@ -11,5 +16,9 @@
   },
   "dependencies": {
     "playwright": "^1.51.0"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
   }
 }
